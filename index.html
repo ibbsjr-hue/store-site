@@ -5,18 +5,30 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Quietdesk | Calm tools for focused work</title>
 <meta name="description" content="Quietdesk makes minimal desk accessories for people who do their best work in a calm space.">
-<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
 <header>
-  <h1>Quietdesk</h1>
+  <div class="brand">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#b4683c"/><path d="M9 25h22M13 25v6M27 25v6M14 25c0-5 3-8 6-8s6 3 6 8" fill="none" stroke="#fffdf9" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <h1>Quietdesk</h1>
+  </div>
   <button id="cart-toggle">Cart (<span id="count">0</span>)</button>
 </header>
 <main>
   <section class="hero">
+    <p class="eyebrow">Desk goods for deep work</p>
     <h2>Calm tools for focused work</h2>
     <p>Minimal desk accessories, designed to clear the clutter and keep your attention on what matters.</p>
+    <a class="btn" href="#shop">Shop the collection</a>
   </section>
+  <section class="values">
+    <div><strong>Natural materials</strong><span>Oak, wool felt and stoneware.</span></div>
+    <div><strong>No screens, no pings</strong><span>Analog tools that stay quiet.</span></div>
+    <div><strong>Made to last</strong><span>Simple designs you will keep.</span></div>
+  </section>
+  <h2 class="section-title" id="shop">The collection</h2>
   <section id="products" class="grid"></section>
 </main>
 <aside id="cart" hidden>
@@ -26,7 +38,7 @@
   <button id="checkout">Checkout</button>
   <p id="note"></p>
 </aside>
-<footer>&copy; 2026 Quietdesk</footer>
-<script src="app.js?v=2"></script>
+<footer>&copy; 2026 Quietdesk &middot; Calm tools for focused work</footer>
+<script src="app.js?v=3"></script>
 </body>
 </html>
